@@ -41,6 +41,9 @@ public class Order implements Serializable {
         this.status = status;
     }
 
+    public Order(Long aLong, String address, Double latitude, Double longitude, Instant now, OrderStatus peding) {
+    }
+
     public long getId() {
         return id;
     }
